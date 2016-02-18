@@ -1,8 +1,9 @@
 body {
   /* Typography Declarations */
-  color: #222222;
+  color: white;
   font-size: 1em;
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: black
 }
 .masthead {
   padding: 6em 0;
@@ -55,8 +56,12 @@ body {
 .content-footer > p {
   color: white;
 }
-.introduction-section > p,
-.location-section > p,
+.introduction-section > p {
+  color: white;
+}
+.location-section > p {
+color: white;
+}
 .content-footer > p {
   /* Typography Declarations */
   font-weight: 300;
@@ -67,12 +72,56 @@ body {
   font-family: "Gentium Book Basic", Georgia, serif;
   font-size: 1.2em;
   font-weight: bold;
+  color: white;
 }
-@media only screen and (max-width: 500px) {
+.social .content{
+  width: 60rem;
+  margin: 0 auto;
+  text-align: center;
+    /*height: 10em;
+    border-radius: 50%;
+    border: 1px solid gray;*/
+  }
+  .social hr{
+    width: 100%;
+    border-top: 1px solid #eaebec;
+    margin-top:1.313em;
+    margin-bottom: 1em;
+  }
+  .social .icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+  }
+  .social .icons .twitter {
+    color: #55acee;
+  }
+  .social .icons .facebook {
+    color: #4c66a4;
+  }
+  .social .icons .instagram {
+    color: #3f729b;
+  }
+  .content > h5 {
+    color: white;
+  }
+  .social p {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
+    padding-bottom: 12em;
+  }
+  @media only screen and (max-width: 500px) {
     .masthead {
-        padding: 3em 0;
+      padding: 3em 0;
     }
-    .masthead-heading {
-        font-size: 3em;
+    .mastheadheading {
+      font-size: 3em;
     }
-}
+
+  }
